@@ -1,0 +1,35 @@
+li {
+    font-family: 'Itim', cursive;
+    font-size:20px;
+}
+
+[title="Destinos de Viaje Populares"]{ 
+    color: rgb(147, 113, 209);
+    font-size: 50px;
+    font-family: 'Itim', cursive;
+}
+
+div {
+    text-align: center;
+}
+
+[data-continent*="Europa"]{ 
+    box-shadow: 1px 1px 3px black;
+}
+
+[data-country~="Francia"]{ 
+    color: darkmagenta;
+}
+
+[data-geography^="C"] {
+    font-size: 50px;
+}
+
+[data-country$="s"] {
+    border: 2px solid darkturquoise;
+}
+
+img {
+    text-align: center;
+    border:5px solid thistle;
+}

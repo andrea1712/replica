@@ -1,0 +1,11 @@
+.mayusculas ul li span{
+    color: darkorchid;
+}
+
+span.con-borde.par.prueba{
+    border:2px solid deeppink;
+}
+
+.ultimos .mayusculas span{
+    text-transform: uppercase;
+}

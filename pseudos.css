@@ -1,0 +1,141 @@
+* {
+    font-family: 'MuseoModerno', cursive;
+    color: mintcream;
+}
+html {
+    position: relative;
+    min-height: 100%;
+    max-width: 100%;
+     background: url(fondo2.jpg);
+     background-repeat: no-repeat;
+     -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+   max-width: 100%;
+      overflow-x: hidden;
+
+}
+
+#aling {
+  text-align: center;
+  border-radius: 3px solid white;
+ }
+
+ li:nth-child(2n) {
+    color: rosybrown;
+}
+
+.container{
+    background-color: black;
+}
+
+a:link {
+    color: white;
+}
+a:visited {
+    color:mistyrose;
+}
+a:active {
+    color: rgb(106, 190, 144);
+}
+
+h2::first-letter {
+    color: blue;
+    text-transform: uppercase;
+    font-size: 5em;
+}
+
+::selection {
+    background-color:rgba(137, 248, 252, 0.801);
+}
+
+
+#facil::before {
+    content: '';
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    display: block
+}
+
+#one {
+    position: absolute;
+    background-color: black;
+    left:10px;
+    top: 380px;
+    width:300px;
+    height:200px;
+    border:3px solid firebrick;
+}
+
+#two {
+    position: absolute;
+    left:320px;
+    top:380px;
+    width:300px;
+    background-color: black;
+    height: 200px;
+    border:3px solid lime;
+}
+
+#three {
+    
+   position: absolute;
+    left: 630px;
+    top: 380px;
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    border:3px solid orchid;
+}
+
+#four {
+    position: absolute;
+    left: 942px;
+    top: 380px;
+    width: 300px;
+    height: 200px;
+    border:3px solid palevioletred;
+    background-color: black;
+}
+
+#five {
+    position: absolute;
+    left: 10px;
+    top: 600px;
+    width: 300px;
+    height: 200px;
+    border:3px solid mediumslateblue;
+    background-color: black;
+}
+
+#six {
+    position: absolute;
+    left: 320px;
+    top: 600px;
+    width: 300px;
+    height: 200px;
+    border:3px solid rgb(112, 193, 218);
+    background-color: black;
+}
+
+#seven {
+    position: absolute;
+    left: 630px;
+    top: 600px;
+    width: 300px;
+    height: 200px;
+    border:3px solid mediumslateblue;
+    background-color: black;
+}
+
+#eight {
+    position: absolute;
+    left: 942px;
+    top: 600px;
+    width: 300px;
+    height: 200px;
+    border:3px solid rgb(112, 193, 218);
+    background-color: black;
+}

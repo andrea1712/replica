@@ -1,0 +1,35 @@
+.container {
+    border: 10px solid;
+    float: left;
+}
+
+.container > div {
+    float: left;
+    width: 500px;
+    border: 5px solid black;
+}
+
+.body img {
+    width: 90%;
+}
+.header + div > div{
+    float: left;
+    width: 50%;
+}
+
+#hermano-importante ~ div {
+    border-width: 10px;
+    border-color: aquamarine;
+}
+
+.container>div:first-child ~ div{
+    margin-top: 20px;
+}
+/*
+* =   > + ~
+
+.container + div > ul ~ li span
+A * B * C * D * E
+A * B * C * D * E
+
+*/

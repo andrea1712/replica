@@ -1,0 +1,14 @@
+li {
+    font-family: 'Itim', cursive;
+    font-size:20px;
+}
+
+[title="Destinos de Viaje Populares"] {
+    color: rgb(147, 113, 209);
+    font-size: 50px;
+    font-family: 'Itim', cursive;
+}
+
+a{
+    text-align: center;
+}
